@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only src/index.ts"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "ts-node-dev": "^1.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}
